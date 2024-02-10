@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 
 const bookRoomSchema = new mongoose.Schema({
     Customer_name : String,
-    Date : Date,
-    Start_Time : Date,
-    End_Time : Date,
+    Date : String,
+    Start_Time : String,
+    End_Time : String,
     Room_Id : Number,
     Booking_Id :String,
     Booking_status : String,
